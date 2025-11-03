@@ -41,45 +41,78 @@ It includes a public-facing website for users and a full-featured admin panel fo
 ## 🧱 Project Structure
 
 ├── app/
+
 │ ├── Http/Controllers/
+
 │ │ ├── Admin/
+
 │ │ │ ├── AdminController.php
+
 │ │ │ ├── ProductController.php
+
 │ │ │ ├── TestimonialController.php
+
 │ │ │ ├── FooterController.php
+
 │ │ │ └── ContactAdminController.php
+
 │ │ └── ContactController.php
+
 │ ├── Models/
+
 │ │ ├── Product.php
+
 │ │ ├── Feature.php
+
 │ │ ├── Testimonial.php
+
 │ │ ├── Blog.php
+
 │ │ ├── Footer.php
+
 │ │ └── Slider.php
+
 │
 ├── resources/views/
+
 │ ├── home.blade.php
+
 │ ├── partials/
+
 │ │ ├── about.blade.php
+
 │ │ ├── products.blade.php
+
 │ │ ├── testimonials.blade.php
+
 │ │ └── footer.blade.php
+
 │ └── admin/
 │ ├── contacts/
+
 │ ├── products/
+
 │ ├── blog/
+
 │ └── features/
+
 │
 ├── public/
+
 │ ├── storage/
+
 │ ├── images/
+
 │ ├── css/
+
 │ └── js/
+
 │
 └── routes/
-├── web.php
-└── auth.php
 
+├── web.php
+
+└── auth.php
 
 ---
 
@@ -108,7 +141,7 @@ DB_USERNAME=root
 DB_PASSWORD=
  ```
 
-###3️⃣ Generate App Key
+### 3️⃣ Generate App Key
 ```bash
 php artisan key:generate
  ```
@@ -148,9 +181,13 @@ Powered by AdminLTE for a clean and professional UI.
 
 
 Section	Preview
+
 🏠 Home	Dynamic slider and content
+
 🌿 Products	Grid view with categories
+
 💬 Testimonials	Animated customer reviews
+
 🧑‍💻 Admin Dashboard	Clean, responsive control panel
 
 
@@ -168,6 +205,7 @@ Set the domain’s root directory to /public.
 Run:
 
 php artisan storage:link
+
 php artisan migrate --force
 
 
