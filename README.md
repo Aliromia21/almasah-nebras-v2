@@ -206,9 +206,7 @@ Deployed on DreamHost Shared Hosting.
 
 💾 Implement cloud image storage (AWS S3 or Cloudinary)
 
-🪪 Please Do Not CLaim As Your Selve : This Website is Fuly Hosted On DreamHost And Licensed Under The Almasah & Nebras Company Business 
-
-   Please Use Just For Learning Purposes 
+🪪 Please Do Not CLaim As Your Selve : This Website is Fuly Hosted On DreamHost And Licensed Under The Almasah & Nebras Business Company
 
    Any Reuse To This Code Under Another Business Name is Illegal 
 
