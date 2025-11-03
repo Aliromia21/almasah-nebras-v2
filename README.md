@@ -1,61 +1,196 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🌿 Almasah & Nebras Agricultural Company
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A complete web platform for **Almasah & Nebras Agricultural Company**, featuring a modern **front-end website** and a powerful **admin dashboard** to manage all dynamic content — products, blogs, testimonials, and more.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This project was built using **Laravel 10**, designed to deliver a professional, responsive, and fully dynamic agricultural website.  
+It includes a public-facing website for users and a full-featured admin panel for managing content efficiently.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 🌱 Key Features
+- 🏠 **Home Page** — Dynamic slider with promotional content  
+- 🧑‍🌾 **About Section** — Company overview with interactive visuals  
+- 🛒 **Products** — Display agricultural products with pricing and categories  
+- ✨ **Features Section** — Highlights company strengths and services  
+- 💬 **Customer Testimonials** — Interactive review carousel  
+- 📰 **Blog** — Share news, tips, and company updates  
+- 📩 **Contact Page** — Integrated contact form with message storage  
+- ⚙️ **Admin Dashboard** — Manage everything with a clean interface
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🧰 Tech Stack
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+| Category | Technology | Description |
+|:--|:--|:--|
+| **Back-End** | [Laravel 10](https://laravel.com/) | PHP framework powering the full app |
+| **Front-End** | [Blade Templates](https://laravel.com/docs/10.x/blade) | Dynamic templating system |
+| | [Bootstrap 5](https://getbootstrap.com/) | UI and responsive design |
+| | [Font Awesome](https://fontawesome.com/) | Icon library |
+| **Database** | MySQL / SQLite | Stores all dynamic content |
+| **Admin Panel** | [Laravel-AdminLTE](https://github.com/jeroennoten/Laravel-AdminLTE) | Elegant admin dashboard |
+| **Animation** | WOW.js + Animate.css | Smooth scroll and visual effects |
+| **Carousel** | Owl Carousel | Dynamic sliders for testimonials and banners |
+| **Hosting** | DreamHost | Production hosting platform |
+| **Version Control** | Git + GitHub | Versioning and deployment |
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🧱 Project Structure
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+├── app/
+│ ├── Http/Controllers/
+│ │ ├── Admin/
+│ │ │ ├── AdminController.php
+│ │ │ ├── ProductController.php
+│ │ │ ├── TestimonialController.php
+│ │ │ ├── FooterController.php
+│ │ │ └── ContactAdminController.php
+│ │ └── ContactController.php
+│ ├── Models/
+│ │ ├── Product.php
+│ │ ├── Feature.php
+│ │ ├── Testimonial.php
+│ │ ├── Blog.php
+│ │ ├── Footer.php
+│ │ └── Slider.php
+│
+├── resources/views/
+│ ├── home.blade.php
+│ ├── partials/
+│ │ ├── about.blade.php
+│ │ ├── products.blade.php
+│ │ ├── testimonials.blade.php
+│ │ └── footer.blade.php
+│ └── admin/
+│ ├── contacts/
+│ ├── products/
+│ ├── blog/
+│ └── features/
+│
+├── public/
+│ ├── storage/
+│ ├── images/
+│ ├── css/
+│ └── js/
+│
+└── routes/
+├── web.php
+└── auth.php
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## ⚙️ Local Setup
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 1️⃣ Install Dependencies
+```bash
+composer install
+npm install
+ ```
 
-## Code of Conduct
+### 2️⃣ Configure Environment
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Copy the example environment file:
+```bash
+cp .env.example .env
+ ```
 
-## Security Vulnerabilities
+Edit your database configuration: 
+  ```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=almasah_nebras
+DB_USERNAME=root
+DB_PASSWORD=
+ ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+###3️⃣ Generate App Key
+```bash
+php artisan key:generate
+ ```
 
-## License
+### 4️⃣ Run Migrations
+```bash
+php artisan migrate
+ ```
+### 5️⃣ Serve the Application
+```bash
+php artisan serve
+ ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+🧑‍💼 Admin Panel
+
+Access the dashboard via:
+
+/admin/dashboard
+
+Features:
+
+Manage Products
+
+Manage Blog Posts
+
+Manage Customer Testimonials
+
+Manage Features
+
+Manage Sliders
+
+Manage Footer Content
+
+View & Delete Contact Messages
+
+Powered by AdminLTE for a clean and professional UI.
+
+
+Section	Preview
+🏠 Home	Dynamic slider and content
+🌿 Products	Grid view with categories
+💬 Testimonials	Animated customer reviews
+🧑‍💻 Admin Dashboard	Clean, responsive control panel
+
+
+
+🌐 Deployment
+
+Deployed on DreamHost Shared Hosting.
+
+Steps:
+
+Upload project files.
+
+Set the domain’s root directory to /public.
+
+Run:
+
+php artisan storage:link
+php artisan migrate --force
+
+
+Configure .env for production.
+
+🧭 Future Improvements
+
+🌍 Add English/Arabic language switch (multi-language support)
+
+📱 Develop mobile app version (React Native)
+
+⚡ Improve SEO performance and metadata
+
+💾 Implement cloud image storage (AWS S3 or Cloudinary)
+
+🪪 Please Do Not CLaim As Your Selve : This Website is Fuly Hosted On DreamHost And Licensed Under The Almasah & Nebras Company Business 
+
+Please Use Just For Learning Purposes 
+
+Any Reuse To This Code Under Another Business Name is Illegal 
+
+Developed By : 
+
+Ali Romia - Software Developer
+
+
