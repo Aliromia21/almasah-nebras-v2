@@ -22,10 +22,15 @@ It includes a public-facing website for users and a full-featured admin panel fo
 ---
 
 # Preview 
-![App Preview](public/images/1.png)
+
+![Front End](public/images/1.png)
+
 ![App Preview](public/assets/2.png)
+
 ![App Preview](public/images/3.png)
+
 ![App Preview](public/assets/4.png)
+
 ![App Preview](public/images/5.png)
 
 
