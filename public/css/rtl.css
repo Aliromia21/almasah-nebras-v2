@@ -1,0 +1,222 @@
+/* ==========================================================================
+   🌿 AdminLTE RTL Arabic Clean Version (بدون أيقونات)
+   ========================================================================== */
+
+/* 🎨 الخطوط واتجاه النص */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif !important;
+    background-color: #f8f9fa;
+}
+
+/* ✅ السايدبار في الجهة اليمنى */
+.main-sidebar {
+    right: 0 !important;
+    left: auto !important;
+    z-index: 1050;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ✅ تعديل المحتوى */
+.content-wrapper,
+.main-header,
+.main-footer {
+    margin-right: 250px !important;
+    margin-left: 0 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ✅ عند تصغير القائمة الجانبية */
+.sidebar-collapse .content-wrapper,
+.sidebar-collapse .main-header,
+.sidebar-collapse .main-footer {
+    margin-right: 80px !important;
+}
+
+/* =======================================================================
+   🧭 السايدبار (بدون أيقونات)
+   ======================================================================= */
+
+.nav-sidebar .nav-link {
+    display: block;
+    text-align: right;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.nav-sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(-3px);
+}
+
+.nav-sidebar .nav-link.active {
+    background-color: #198754 !important; /* أخضر أنيق */
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.nav-sidebar .nav-header {
+    text-align: right;
+    padding: 10px 20px 5px 20px;
+    font-size: 0.9rem;
+    color: #a1a1a1;
+    letter-spacing: 0.5px;
+}
+
+/* ✅ القوائم الفرعية */
+.nav-treeview .nav-link {
+    padding-right: 35px;
+}
+
+/* =======================================================================
+   🧩 تحسين تنسيق الصفحات الداخلية
+   ======================================================================= */
+
+.card,
+.content-wrapper,
+.main-footer,
+.main-header {
+    text-align: right;
+}
+
+.card-header .card-title {
+    float: right;
+}
+
+.btn {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.table th,
+.table td {
+    text-align: right;
+}
+
+label {
+    float: right;
+}
+.form-control {
+    text-align: right;
+}
+
+/* ✅ الفوتر */
+.main-footer {
+    direction: rtl;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* ✅ صفحات تسجيل الدخول */
+.login-box,
+.register-box {
+    text-align: right;
+}
+
+/* ✅ الشريط العلوي */
+.navbar-nav {
+    flex-direction: row-reverse;
+}
+
+.navbar .navbar-nav.ml-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+/* ✅ العناوين */
+h1, h2, h3 {
+    font-weight: 700;
+    color: #157347;
+}
+
+/* ✅ صناديق الإحصائيات */
+.small-box {
+    text-align: right;
+}
+
+/* ✅ التنبيهات */
+.alert {
+    text-align: right;
+}
+
+/* ✅ القوائم المنسدلة */
+.dropdown-menu {
+    text-align: right;
+}
+
+/* ✅ الفليكس */
+.d-flex {
+    flex-direction: row-reverse !important;
+}
+
+/* ✅ تحسين الجماليات */
+.small-box:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-in-out;
+}
+
+hr {
+    border-top: 1px solid #dcdcdc;
+}
+
+/* ✅ اسم الموقع في السايدبار */
+.brand-link {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+}
+
+/* ==========================================================================
+   📱 Responsive RTL Fixes for AdminLTE
+   ========================================================================== */
+
+/* ✅ عند الشاشات الصغيرة (الموبايل) */
+@media (max-width: 991.98px) {
+
+    /* نخفي السايدبار افتراضيًا على الموبايل */
+    .main-sidebar {
+        right: -250px !important;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* عند فتح السايدبار (عبر الزر في الأعلى) */
+    .sidebar-open .main-sidebar {
+        right: 0 !important;
+    }
+
+    /* نتأكد أن المحتوى يحتل العرض الكامل */
+    .content-wrapper,
+    .main-header,
+    .main-footer {
+        margin-right: 0 !important;
+    }
+
+    /* الزر (الهامبرغر) في الأعلى يكون بمحاذاة اليمين */
+    .main-header .navbar-toggler {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    /* تباعد مناسب بين العناصر */
+    .nav-sidebar .nav-link {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+
+    /* تصغير الفوتر على الموبايل */
+    .main-footer {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+/* ✅ تحسين زر القائمة في الأعلى */
+.navbar-toggler {
+    float: right !important;
+}
