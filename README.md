@@ -25,7 +25,7 @@ It includes a public-facing website for users and a full-featured admin panel fo
 
 ![Front End](public/images/1.png)
 
-![App Preview](public/assets/2.png)
+![App Preview](public/images/2.png)
 
 ![App Preview](public/images/3.png)
 
