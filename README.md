@@ -155,8 +155,8 @@ php artisan migrate
 php artisan serve
  ```
 
-🧑‍💼 Admin Panel
-
+Admin Panel :
+ 
 Access the dashboard via:
 
 /admin/dashboard
@@ -192,24 +192,9 @@ Section	Preview
 
 
 
-🌐 Deployment
+Deployment :
 
 Deployed on DreamHost Shared Hosting.
-
-Steps:
-
-Upload project files.
-
-Set the domain’s root directory to /public.
-
-Run:
-
-php artisan storage:link
-
-php artisan migrate --force
-
-
-Configure .env for production.
 
 🧭 Future Improvements
 
@@ -223,12 +208,12 @@ Configure .env for production.
 
 🪪 Please Do Not CLaim As Your Selve : This Website is Fuly Hosted On DreamHost And Licensed Under The Almasah & Nebras Company Business 
 
-Please Use Just For Learning Purposes 
+   Please Use Just For Learning Purposes 
 
-Any Reuse To This Code Under Another Business Name is Illegal 
+   Any Reuse To This Code Under Another Business Name is Illegal 
 
-Developed By : 
+   Developed By : 
 
-Ali Romia - Software Developer
+   Ali Romia - Software Developer
 
 
