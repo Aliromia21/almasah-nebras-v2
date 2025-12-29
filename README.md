@@ -205,16 +205,12 @@ Section	Preview
 
 
 
-Deployment :
+⚠️ Note:
+This project was developed and deployed for a real client.
+The source code is shared here strictly for portfolio and evaluation purposes.
 
-Deployed on DreamHost Shared Hosting.
+Developed By : 
 
-🪪 Please Do Not CLaim As Your Selve : This Website is Fuly Hosted On DreamHost And Licensed Under The Almasah & Nebras Business Company
-
-   Any Reuse To This Code Under Another Business Name is Illegal 
-
-   Developed By : 
-
-   Ali Romia - Software Developer
+Ali Romia - Software Developer
 
 
